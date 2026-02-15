@@ -1,3 +1,12 @@
+## ⚠️ Partial Deprecation Notice
+Over the last year, a few major changes have occurred to the Jailbreak development landscape:
+
+- The crew system was entirely removed, leaving the leaderboard API deprecated
+- JBValues privatized its APIs and no new value APIs are available from any source
+
+For these reasons, the leaderboard and value API wrappers are hereby deprecated and no longer functional.
+The trading API (and wrapper) is still available and functional. Please note that new game items are not reflected in the API for 2-3 months after addition.
+
 # Roblox Jailbreak Utilities
 [![Python 3.12.1](https://img.shields.io/badge/python-3.12.1-blue.svg)](https://www.python.org/downloads/release/python-3121/)
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/ignViralX/JailbreakUtilities)
